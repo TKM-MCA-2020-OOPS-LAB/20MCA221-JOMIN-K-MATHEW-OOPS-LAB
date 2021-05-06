@@ -1,4 +1,8 @@
 package packoops;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 15d824e8fa8599aa48a50e7af1755e656aa7bfec
 import java.util.*;
 public class matrix {
     int row;
