@@ -1,4 +1,4 @@
-package TestPK;
+package packoops;
 
 public class product{
     int pcode;
