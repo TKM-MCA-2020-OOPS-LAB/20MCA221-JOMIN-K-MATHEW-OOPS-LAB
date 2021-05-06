@@ -1,7 +1,5 @@
-package TestPK;
-
+package packoops;
 import java.util.*;
-
 public class matrix {
     int row;
     int column;
