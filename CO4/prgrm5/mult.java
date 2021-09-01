@@ -1,7 +1,5 @@
 package packoops;
 import java.util.Scanner;
-import java.lang.*;
-import java.io.*;
 public class mult {
 	public static void main(String[] args) throws InterruptedException    {
 		multiplication_tbl a = new multiplication_tbl();
