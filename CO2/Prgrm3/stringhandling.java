@@ -1,14 +1,21 @@
 package packoops;
 
+import java.util.Scanner;
+
 public class stringhandling {
 
 
 	    public static void main(String[] args) 
 	    {
-	        String s1 = "Hello";
-	        String s2 = "World";
-	        String s3 = "";
-	        String s4 = "                       This is a STRING        ";
+	    	Scanner s=new Scanner(System.in);
+			System.out.println("Enter the first strings: ");
+			String s1=s.nextLine();
+			System.out.println("Enter the Second strings: ");
+			String s2=s.nextLine();
+			System.out.println("Enter the Third strings: ");
+			String s3=s.nextLine();
+			System.out.println("Enter the Fourth strings: ");
+			String s4=s.nextLine();                ;
 	        System.out.println("String 1:"+s1);
 	        System.out.println("String 2:"+s2);
 	        System.out.println("String concatenation:"+s1.concat(s2));

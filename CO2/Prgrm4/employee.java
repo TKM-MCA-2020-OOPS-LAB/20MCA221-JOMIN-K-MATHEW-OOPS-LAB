@@ -1,11 +1,11 @@
 package packoops;
 import java.util.Scanner;
 
-public class details {
+public class employee {
 int eNo;
 String eName;
 int salary;
-details(int a, String b,int c) {
+employee(int a, String b,int c) {
 
 	eNo=a;
 	eName=b;
@@ -15,7 +15,7 @@ details(int a, String b,int c) {
 public void display(int p)
 {
 if(p==eNo) {
-System.out.println("Employee number :=> "  + eNo + "\t"+ " Employee Name :=> " +eName + "\t"+ "Salary :=> " +salary);
+System.out.println("Employee number : "  + eNo +"\n"+ "Employee Name : " +eName + "\n"+ "Salary : " +salary);
 
 }
 }
@@ -29,7 +29,7 @@ public static void main(String[] args)
 	Scanner obq1=new Scanner(System.in);
 	System.out.println("Enter the number of employee :");
 	a=obq.nextInt();
-	details[] obj=new details[a];
+	employee[] obj=new employee[a];
 	for(int i=0;i<a;i++)
 	{	
 		System.out.println("Enter the employee N.O :");
@@ -38,7 +38,7 @@ public static void main(String[] args)
 		c=obq1.nextLine();
 		System.out.println("Enter the employee Salary :");
 		s=obq.nextInt();
-		obj[i]=new details(b,c,s);
+		obj[i]=new employee(b,c,s);
 	}
 	System.out.println("Enter the emp number :");
 	int t=obq.nextInt();
