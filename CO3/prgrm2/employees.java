@@ -1,4 +1,4 @@
-package packoops;
+package Graphics;
 import java.util.Scanner;
 
 class  employees{
@@ -10,6 +10,7 @@ class  employees{
 		 
 		Scanner obq=new Scanner(System.in);
 		Scanner obq1=new Scanner(System.in);Scanner obq2=new Scanner(System.in);
+		
 		System.out.println("Enter the employee N.O :");
 		b=obq.nextInt();
 		System.out.println("Enter the employee Name :");
@@ -70,7 +71,7 @@ class data extends teachers{
 	}
 }
 
-public class  employee{
+public class  emp{
 	
 	public static void main(String[] args) {
 		int a;
@@ -88,7 +89,5 @@ public class  employee{
 			
 			obj[i].display(i+1);
 		}
-	    
-	}
-	
+}
 }
